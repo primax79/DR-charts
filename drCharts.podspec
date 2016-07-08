@@ -4,8 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "1.2"
   s.summary      = "dr-Charts is a powerful & easy way to use charts in Objective-C for iOS."
 
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "podspec by primax79"
 
   s.homepage     = "https://github.com/Zomato/DR-charts"
 
@@ -17,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => "https://github.com/Zomato/DR-charts", :tag => "1.2" }
+  s.source       = { :git => "https://github.com/primax79/DR-charts.git", :tag => "1.2" }
 
   s.source_files  = "dr-Charts/Classes", "dr-Charts/Classes/**/*.{h,m}"
   s.exclude_files = "dr-Charts/Classes/Exclude"
